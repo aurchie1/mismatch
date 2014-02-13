@@ -30,7 +30,7 @@
   			 			
   			setcookie('user_id', $row['user_id'] , time () + (60 * 60 *2));
   			setcookie('username', $row['username'] , time () + (60 * 60 *2));
-  			$home_url = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . 'index.php';
+  			$home_url = $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . 'index.php';
   			header('Location: ' . $home_url);
   	}
   	else {

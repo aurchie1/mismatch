@@ -38,7 +38,7 @@
 			
 			//confirm success with the user
 			
-			echo '<p> Your new account has been successfully created. you\'re now ready to log in and ' . '<a href="editprofile.php">edit your profile</a></p>';
+			echo '<p> Your new account has been successfully created. you\'re now ready to edit your profile.  Please ' . '<a href="login.php">log in</a> first</p>';
 			
 			mysqli_close($dbc);
 			
