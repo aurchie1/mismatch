@@ -77,14 +77,12 @@
 		</fieldset>
 			<input type="submit" value="Log In" name="submit" />
 		</form>
-	<?php 
+<?php 
 		}
 		else {
 			//confirm the successful log in
 			echo('<p class="login"> You are logged in as ' . $_COOKIE['username'] . '.</p>');
 		}
-	?>
-	
-</body>
+	?></body>
 </html>
  
